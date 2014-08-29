@@ -1,11 +1,13 @@
 {
   "name": "ng-rails-ujs",
   "scripts": {
-    "test": "mocha-phantomjs test/index.html"
+    "test": "make test"
   },
   "devDependencies": {
     "mocha": "^1.21.4",
     "mocha-phantomjs": "^3.5.0",
-    "phantomjs": "^1.9.7-15"
+    "phantomjs": "^1.9.7-15",
+    "uglify-js": "^2.4.15",
+    "uglifyjs": "^2.3.6"
   }
 }

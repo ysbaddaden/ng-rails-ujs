@@ -1,5 +1,5 @@
 angular.module("rails.ujs")
-  .directive("method", function (csrf) {
+  .directive("method", ['csrf', function (csrf) {
     function template(attr) {
       return '<form action="' + attr.href + '" method="post">' +
              '  <input type="hidden" name="' + csrf.param + '" value="' + csrf.token + '"/>' +
@@ -36,4 +36,4 @@ angular.module("rails.ujs")
         });
       }
     };
-  });
+  }]);
