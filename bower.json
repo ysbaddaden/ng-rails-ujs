@@ -1,0 +1,29 @@
+{
+  "name": "ng-rails-ujs",
+  "version": "0.1.0",
+  "authors": [
+    "Julien Portalier <julien@portalier.com>"
+  ],
+  "description": "Rails UJS directives for AngularJS",
+  "main": "ng-rails-ujs.js",
+  "keywords": [
+    "angular",
+    "rails",
+    "ujs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ysbaddaden/ng-rails-ujs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "test"
+  ],
+  "devDependencies": {
+    "minitest": "~0.1.1",
+    "angular-mocks": "~1.2.23"
+  },
+  "dependencies": {
+    "angular": "~1.2.23"
+  }
+}
